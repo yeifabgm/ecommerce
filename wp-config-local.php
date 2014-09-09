@@ -16,13 +16,13 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'ecommerce');
+define('DB_NAME', 'woocommerce');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'tally');
+define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'Codetag183');
+define('DB_PASSWORD', 'root');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'PPa!ygxMy|h|9!&kS[LMW:Jz/zB.z<po:>gh#4G7[7Je}M cT+>YD>~BZzO3PO|W'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_KEY', 'wt:n:kc. [],]wH&jgxh[>RNS[|>p>wo(!kF#g5=o2<+%BTa,bYyBFKN>lAE!9]!'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_KEY', 'Pe;`{[~kUQ1 MY>-e|~i4]s19bhq+ZfD9R|+uo)fx[3Tk[Iv7LTa?Dv}}VOVtnPk'); // Cambia esto por tu frase aleatoria.
-define('NONCE_KEY', 'rA]/]omFrc|k! ]L::X(,J)oKO6!Wio3,o6+0?pht_6~(LnaobE|TnKKHUGzFM#5'); // Cambia esto por tu frase aleatoria.
-define('AUTH_SALT', 'e6U._=}A<>rYm50~?g];$QW~jc}oL_fZ=BJ4<-*i^)@j1hg%YS6LT wcy_wSeKv2'); // Cambia esto por tu frase aleatoria.
-define('SECURE_AUTH_SALT', '!Kw!YTOdd L8f+5[XtNfdAAS5~o_1)Y#k4&/^L(svAl0`/_X<!Rjd&#rK%hc&`Cl'); // Cambia esto por tu frase aleatoria.
-define('LOGGED_IN_SALT', 'Jb#VZC$z=3QHlHAuY_QA.[gOQ<7q)*[2sPx1$nRy$cd#2z-S#+OdZUWp!5a(FW5q'); // Cambia esto por tu frase aleatoria.
-define('NONCE_SALT', '[8B6TrHl+b=f:0NxN-]<E6XQl+y%hO^I)cQ*DpJ93D5f5;Z/y0MJ~yd8 8F$++6a'); // Cambia esto por tu frase aleatoria.
+define('AUTH_KEY', 's~aO~K7RAE<|E:>-WW<.KL@`xX9iQL6bk!2%?ofQG+}_@1!bOs3wP9GamGWRC$5&'); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_KEY', 'fP_3b4hu/vS8f*K+c:yZ <t[!P$?v%f?eup_Q%Aj-LrW_|D+0Uv6%c Dn=:04bQ['); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_KEY', 'p@+~|}ZTW{):u8B4H~!ms`O%$W0j]A2*MZI!&LXK^HWYt@>|~#Wj)I*P||ElJXDJ'); // Cambia esto por tu frase aleatoria.
+define('NONCE_KEY', 'p]r38MSIi&^yY$d{QG-:_}4u#?1_;fo?7E3(r3,p<x] R{p7Z+JP3Nm*(z:UohK2'); // Cambia esto por tu frase aleatoria.
+define('AUTH_SALT', '*(&2xp2%FGzUB=g9LahGp:X&SMYJXvdR7U4S7.ziC Ty1%>M(u!2iH=dF*CgFCn['); // Cambia esto por tu frase aleatoria.
+define('SECURE_AUTH_SALT', '7]<`XDVD@G9oTO%^S3UGKsB:GgKb??Xfe4QW&-Ch3lk#-hwzDBDX3{*(A}njm=qi'); // Cambia esto por tu frase aleatoria.
+define('LOGGED_IN_SALT', 'jiqBJ+0=A*t/n?pa!!sFF.2pGTLytOy<rkUsE@=T5-`<ls*aAl`[lO76P[m>nq@$'); // Cambia esto por tu frase aleatoria.
+define('NONCE_SALT', 'Tv ,Cq4-GKrL |KU2;+6,MFhVA+7.lSfLvobKU]XC-hBgT:dL8riVC&-/[B{tW{-'); // Cambia esto por tu frase aleatoria.
 
 /**#@-*/
 
@@ -88,4 +88,5 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
 

@@ -1,0 +1,15 @@
+*** Uno Changelog ***
+
+2014.08.21 - version 1.0.2
+ * Fix - Fixed issue with WooCommerce sidebar not showing up.
+   functions.php
+
+ * Fix - Removes margin from Footer Widgets section when using the full width layout.
+   css/uno.css
+
+2014.07.11 - version 1.0.1
+ * Fix - Improved styling of shortcode buttons.
+   css/uno.css
+
+2014.07.07 - version 1.0
+ * First release!
